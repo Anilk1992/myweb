@@ -7,10 +7,7 @@
 	<version>8.3.0</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
-<plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.0.0</version>
-</plugin>
+
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
@@ -41,7 +38,7 @@
 	
 	<pluginRepositories>
 	    <pluginRepository>    
-		<id>maven1</id>
+		<id>maven</id>
 		<name>Maven.org</name>
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
