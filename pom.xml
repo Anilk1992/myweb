@@ -2,11 +2,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.javahome</groupId>
-	<artifactId>maven-war-plugin</artifactId>
+	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>3.0.0</version>
+	<version>8.3.0</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
+<plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin>
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
